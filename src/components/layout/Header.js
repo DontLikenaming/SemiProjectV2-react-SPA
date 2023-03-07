@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 const Header = () => {
     return (
         <Fragment>
-        <header><h1>JSP 프로젝트</h1></header>
+        <header><h1>React 프로젝트</h1></header>
             <nav>
             <ul className="navul">
                 <li>

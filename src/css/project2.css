@@ -43,7 +43,7 @@ form{
 }
 div{padding: 5px;}
 label{display: inline-block; width: 110px; text-align: right; font-weight: bold;}
-form input{padding: 5px}
+form input{padding: 5px; }
 button{padding: 5px;}
 
 .dragup {vertical-align: top}

@@ -30,4 +30,4 @@
     color: red;
 }
 select{padding: 3px;}
-input[type='text']{padding: 5px; width: 64%}
+.board input[type='text']{padding: 5px; width: 64%}
