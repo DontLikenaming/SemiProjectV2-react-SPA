@@ -4,8 +4,16 @@ import '../../css/list.css';
 const List = () => {
     return (
         <div>
-            <h3>게시판</h3>
+            <h2>게시판</h2>
             <table className="board">
+                <colgroup>
+                    <col style={{width: '10%'}} />
+                    <col />
+                    <col style={{width: '15%'}} />
+                    <col style={{width: '15%'}} />
+                    <col style={{width: '10%'}} />
+                </colgroup>
+                <tbody>
                 <tr>
                     <td colSpan="3" className="alignlft">
                         <select name="ftype" id="ftype">
@@ -30,6 +38,7 @@ const List = () => {
                     <th>작성일</th>
                     <th>조회</th>
                 </tr>
+                </tbody>
             </table>
             <ul className="pagenation">
                 <li>

@@ -3,24 +3,26 @@ import '../../css/myinfo.css';
 const Myinfo = () => {
     return (
         <div>
-            <h3>회원정보</h3>
+            <h2>회원정보</h2>
             <table className="myinfo">
+                <tbody>
                 <tr>
                     <td>아이디</td>
-                    <td></td>
+                    <td>[아이디]</td>
                 </tr>
                 <tr>
                     <td>이름</td>
-                    <td></td>
+                    <td>[이름]</td>
                 </tr>
                 <tr>
                     <td>이메일</td>
-                    <td></td>
+                    <td>[이메일]</td>
                 </tr>
                 <tr>
                     <td>가입일</td>
-                    <td></td>
+                    <td>[가입일]</td>
                 </tr>
+                </tbody>
             </table>
         </div>
     );

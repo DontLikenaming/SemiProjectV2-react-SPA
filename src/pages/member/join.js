@@ -1,27 +1,27 @@
 const Join = () => {
     return (
         <div>
-            <h3>회원가입</h3>
+            <h2>회원가입</h2>
             <form name="jnfrm">
                 <div>
-                    <label htmlFor="userid">아이디</label>
-                    <input type="text" id="userid" name="userid"></input>
+                    <label htmlFor="userid">아이디 </label>
+                    <input type="text" id="userid" name="userid" />
                 </div>
                 <div>
-                    <label htmlFor="passwd">비밀번호</label>
-                    <input type="password" id="passwd" name="passwd"></input>
+                    <label htmlFor="passwd">비밀번호 </label>
+                    <input type="password" id="passwd" name="passwd" />
                 </div>
                 <div>
-                    <label htmlFor="check">비밀번호 확인</label>
-                    <input type="password" id="check" name="check"></input>
+                    <label htmlFor="check">비밀번호 확인 </label>
+                    <input type="password" id="check" name="check" />
                 </div>
                 <div>
-                    <label htmlFor="name">이름</label>
-                    <input type="text" id="name" name="name"></input>
+                    <label htmlFor="name">이름 </label>
+                    <input type="text" id="name" name="name" />
                 </div>
                 <div>
-                    <label htmlFor="email">이메일</label>
-                    <input type="text" id="email" name="email"></input>
+                    <label htmlFor="email">이메일 </label>
+                    <input type="text" id="email" name="email" />
                 </div>
                 <div>
                     <label></label>
